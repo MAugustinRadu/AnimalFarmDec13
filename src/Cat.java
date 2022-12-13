@@ -3,7 +3,7 @@ public class Cat extends Animal {
     @Override
     void sound() {
 
-        System.out.println("miauna pisica");
+        System.out.println("Miau");
         SoundOfAnimals.soundOfAnimal("cat.mp3");
     }
 

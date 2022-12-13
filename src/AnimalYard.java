@@ -4,11 +4,9 @@ public class AnimalYard {
     private Animal[] animalSetInTheYard = new Animal[MAXANIMALS];
 
     private void addAnimals() {
-        animalSetInTheYard[0]= new Dog();
-        animalSetInTheYard[1]= new Cat();
-        animalSetInTheYard[2]= new Cat();
-        animalSetInTheYard[3]= new Cow();
-        animalSetInTheYard[4]= new Cow();
+        animalSetInTheYard[0]= new Frog();
+        animalSetInTheYard[1]= new Frog();
+        animalSetInTheYard[2] = new Horse();
 
     }
 
